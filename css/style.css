@@ -1,0 +1,16 @@
+:root{--hutan:#1e3a32;--ceri:#c8323c;--kertas:#f7f6f2;--pasir:#e8e3d6;--tinta:#20201c}
+body{background:var(--kertas);color:var(--tinta);font-family:'Nunito Sans',sans-serif;line-height:1.65}
+h1,h2,h3,.navbar-brand{font-family:'Bricolage Grotesque',sans-serif;letter-spacing:-.02em;line-height:1.15}
+.navbar{background:var(--hutan)}
+.navbar .nav-link{color:#dfe8e2}.navbar .nav-link.active,.navbar .nav-link:hover{color:#fff;font-weight:700}
+.btn-cherry{background:var(--ceri);color:#fff;border:0}.btn-cherry:hover{background:#a82832;color:#fff}
+.slide{min-height:460px;display:flex;align-items:center;color:#fff;background:linear-gradient(rgba(20,28,24,.62),rgba(20,28,24,.62)),var(--foto) center/cover var(--warna,#1e3a32)}
+.slide h1{font-size:clamp(2.2rem,6vw,3.9rem);max-width:15ch}
+.slide p{max-width:46ch;font-size:1.1rem}
+.card{border:1px solid var(--pasir);background:#fff;border-radius:.75rem;overflow:hidden}
+.thumb{height:190px;overflow:hidden}.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.judul{border-bottom:3px solid var(--ceri);display:inline-block;padding-bottom:.25rem}
+.band{background:var(--pasir)}
+footer{background:var(--hutan);color:#cfdad3}footer a{color:#fff}
+.btn:focus-visible,.nav-link:focus-visible,a:focus-visible{outline:3px solid #ffd166;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.carousel-item{transition:none!important}}

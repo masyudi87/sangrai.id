@@ -1,0 +1,37 @@
+<!DOCTYPE html><html lang="id"><head><title>Sangrai.id | Biji Kopi Sangrai Nusantara</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet"></head>
+<body data-page="index">
+<header id="nav"></header>
+<main>
+<div id="hero" class="carousel slide" data-bs-ride="carousel" aria-label="Promo utama">
+ <div class="carousel-indicators"><button data-bs-target="#hero" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button><button data-bs-target="#hero" data-bs-slide-to="1" aria-label="Slide 2"></button><button data-bs-target="#hero" data-bs-slide-to="2" aria-label="Slide 3"></button></div>
+ <div class="carousel-inner">
+  <div class="carousel-item active"><div class="slide" style="--foto:url(https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1600&q=70);--warna:#1e3a32"><div class="container d-flex justify-content-between align-items-center"><div><h1>Kopi sangrai segar dari petani lokal</h1><p>Disangrai setelah kamu pesan, jadi aromanya masih utuh saat sampai di rumah.</p><a href="produk.html" class="btn btn-cherry btn-lg">Belanja kopi</a></div></div></div></div>
+  <div class="carousel-item"><div class="slide" style="--foto:url(https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=1600&q=70);--warna:#8f2a2f"><div class="container d-flex justify-content-between align-items-center"><div><h1>Ongkir gratis di atas Rp 150.000</h1><p>Berlaku ke seluruh Indonesia, dikemas kedap udara supaya tetap awet.</p><a href="produk.html" class="btn btn-light btn-lg">Lihat produk</a></div></div></div></div>
+  <div class="carousel-item"><div class="slide" style="--foto:url(https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1600&q=70);--warna:#3b2a20"><div class="container d-flex justify-content-between align-items-center"><div><h1>Langganan bulanan hemat 15%</h1><p>Pilih biji favoritmu, kami kirim tiap bulan. Bisa berhenti kapan saja.</p><a href="kontak.html" class="btn btn-cherry btn-lg">Tanya paket langganan</a></div></div></div></div>
+ </div>
+ <button class="carousel-control-prev" data-bs-target="#hero" data-bs-slide="prev" aria-label="Sebelumnya"><span class="carousel-control-prev-icon"></span></button>
+ <button class="carousel-control-next" data-bs-target="#hero" data-bs-slide="next" aria-label="Berikutnya"><span class="carousel-control-next-icon"></span></button>
+</div>
+
+<section class="container py-5">
+ <h2 class="judul mb-4">Kenapa belanja di Sangrai.id</h2>
+ <div class="row g-4">
+  <div class="col-md-4"><div class="card h-100 p-4"><h3 class="h5">Langsung dari petani</h3><p class="mb-0">Kami membeli dengan harga adil dari kebun di Aceh sampai Papua, tanpa perantara berlapis.</p></div></div>
+  <div class="col-md-4"><div class="card h-100 p-4"><h3 class="h5">Disangrai sesuai pesanan</h3><p class="mb-0">Tidak ada stok menumpuk. Biji disangrai paling lama 3 hari sebelum dikirim.</p></div></div>
+  <div class="col-md-4"><div class="card h-100 p-4"><h3 class="h5">Bisa digiling sesuai alatmu</h3><p class="mb-0">Pilih biji utuh atau giling halus untuk V60, French press, atau moka pot.</p></div></div>
+ </div>
+</section>
+
+<section class="band py-5"><div class="container">
+ <div class="d-flex justify-content-between align-items-end mb-4"><h2 class="judul mb-0">Kopi pilihan minggu ini</h2><a href="produk.html">Lihat semua</a></div>
+ <div class="row g-4" id="unggulan"></div>
+</div></section>
+</main>
+<footer id="foot"></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/layout.js"></script>
+<script>tampil(document.getElementById('unggulan'),PRODUK.slice(0,3))</script>
+</body></html>
